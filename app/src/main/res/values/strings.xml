@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsCast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Caste</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_political">Political</string>
+    <string name="title_activity_black_mail">BlackMail</string>
+    <string name="title_activity_child_fragment">Child</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+</resources>

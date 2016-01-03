@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.narayankoirala.androidreside">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".VideoPlayBack"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddNewsActvity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Welcom1"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".Welcom2"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".Welcom3"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".ChildFragment"
+            android:label="@string/title_activity_child_fragment" />
+        <activity
+            android:name=".Political"
+            android:label="@string/title_activity_political" />
+        <activity
+            android:name=".BlackMail"
+            android:label="@string/title_activity_black_mail" />
+        <activity
+            android:name=".Check"
+            android:label="@string/title_activity_check"></activity>
+        <activity
+            android:name=".Setting"
+            android:label="@string/title_activity_setting"></activity>
+        <activity
+            android:name=".FeedBack"
+            android:label="@string/title_activity_feed_back"></activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"></activity>
+    </application>
+
+</manifest>

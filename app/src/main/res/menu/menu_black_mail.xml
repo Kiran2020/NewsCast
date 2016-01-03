@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.narayankoirala.androidreside.BlackMail">
+    <item android:id="@+id/setting" android:title="Setting"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/feedback" android:title="Send Feedback"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/about" android:title="About Us"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
